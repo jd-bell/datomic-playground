@@ -1,0 +1,8 @@
+{:allow [datomic_playground/get-equipment]
+ 
+ :lambdas {:get-equipment
+           {:fn datomic_playground.core/get-equipment
+            :description "This lambda gets a piece of equipment!"
+            :integration :api-gateway/proxy}}
+ 
+ :app-name "jdb-datomic-dev"}

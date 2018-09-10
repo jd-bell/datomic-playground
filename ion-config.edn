@@ -1,0 +1,8 @@
+{:allow [datomic_playground/get-equipment]
+ 
+ :lambdas {:say-hello 
+           {:fn ions_hello_world.core/say-hello
+            :description "This lambda says hello!"
+            :integration :api-gateway/proxy}}
+ 
+ :app-name "jdb-datomic-dev"}
